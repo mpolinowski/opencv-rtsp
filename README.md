@@ -35,8 +35,6 @@ pip install opencv-python
 
 ```python
 import cv2
-
-import cv2
 import os
 
 RTSP_URL = 'rtsp://admin:instar@192.168.2.117/11'
