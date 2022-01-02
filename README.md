@@ -39,7 +39,7 @@ import os
 
 RTSP_URL = 'rtsp://admin:instar@192.168.2.117/11'
 
-os.environ['OPENCV_FFMPEG_CAPTURE_OPTIONS'] = 'rtsp_transport;tcp'
+os.environ['OPENCV_FFMPEG_CAPTURE_OPTIONS'] = 'rtsp_transport;udp'
 
 cap = cv2.VideoCapture(RTSP_URL, cv2.CAP_FFMPEG)
 
